@@ -1,0 +1,267 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family:cursive, sans-serif ,serif;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    margin: .75rem 0;
+    padding: .2rem;
+    line-height: 1.5rem
+}
+
+#nav{
+    position: sticky;
+    background: lightgray;
+    color: blueviolet;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    padding: .8rem;
+    
+}
+
+#nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    
+}
+
+#nav ul li a{
+    color: darkred;
+    padding: .5rem;
+    margin: 0 .25rem;
+      
+}
+
+#nav ul li a:hover{
+    background: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+#show{
+    background: url(../img/hd_wallpaper_23347.jpg) no-repeat center center/cover;
+    height: 100vh;
+}
+
+#show .s-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 2rem;
+    position:sticky;
+   
+    background-color: rgba(2,2,2,0.1);
+    
+}
+
+#services{
+    
+    background: #999;
+     
+}
+
+
+.tp-1{
+    color: darkblue;
+}
+
+.tp-2{
+    color: brown;
+}
+.l-h{
+    color:midnightblue;
+    font-size: 3.5rem;
+    margin-bottom: .75rem;
+    line-height: 1.3;
+}
+
+.lp{
+    font-family: inherit;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    
+}
+
+.btn{
+    display:inline-block;
+    color: white;
+    background:darkblue;
+    padding: .3rem;
+    border:none;
+    border-radius: 5px;
+    
+    
+}
+
+.btn:hover
+{
+    background:silver;
+    color: darkblue;
+}
+
+.container
+{
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+    
+}
+
+.m-h{
+    text-align: center;
+    font-size: 1.7rem;
+    padding: 2rem 0px;
+    margin-bottom: 1rem;
+    
+}
+
+.items{
+    display: flex;
+    padding:  1rem;
+    margin: 1rem;
+    position:sticky;
+        
+    
+}
+
+.item
+{
+    /*display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding:2rem;
+    position:sticky;*/
+    
+    flex: 1;
+    text-align: center;
+    padding: 1rem; 
+  
+    
+    
+}
+
+.img2
+{
+  background: url(../img/hd_wallpaper_24480.jpg) no-repeat center center/cover;
+  
+    
+}
+
+#about
+{
+  display: flex;
+     
+}
+
+#about div{
+    flex: 1;
+ 
+}
+
+.content2{
+   
+    
+    background: skyblue;
+}
+
+
+
+.list2 li {
+    list-style: none;
+    margin-left: 2rem;
+    line-height: 1.6rem;
+    font-size: 1.2rem;
+    border-bottom: silver dotted;
+}
+.h-a{
+    text-align: center;
+    margin-top: 1rem;
+    color: red;
+}
+.a-p{
+    
+    margin-top: 1rem;
+    margin-left: .8rem;
+    font-size: 1rem;
+}
+
+#contact{
+    display: flex;
+    background: greenyellow;
+    padding: 2rem;
+    
+    
+    
+}
+
+
+.btn-d{
+    display:inline-block;
+    color: white;
+    background:blue;
+    padding: .4rem;
+    border:none;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-family: cursive;
+    margin-top: 1rem;
+    
+    
+}
+.btn-d:hover
+{
+    font-size: 1rem;
+    background:silver;
+    color: black;
+    font-family: cursive;
+}
+
+.form{
+   display: flex;
+   flex-direction: column;
+   margin: 1rem;
+   line-height: 1.5rem;
+   
+ 
+    
+}
+
+.cf{
+    background: yellow;
+        
+}
+ .c-h{
+    margin-left: 1rem;
+    color: lightseagreen;
+}
+#footer{
+    background: darkgray;
+    color: firebrick;
+    text-align: center;
+    flex-direction: column;
+    padding: .5rem;
+    position: sticky;
+    font-family:monospace;
+    font-size: 1.2rem;
+}
